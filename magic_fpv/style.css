@@ -319,3 +319,50 @@ footer{
         transform: translateY(-30px);
     }
 }
+
+@media (max-width: 770px) {
+  body {
+    background-attachment: scroll;
+  }
+
+  .form,
+  .about,
+  .portfolio,
+  .socials,
+  .contact,
+  .service {
+    width: 95% !important;
+    margin: 10px auto !important;
+    padding: 15px;
+  }
+
+  nav,
+  .both_sections,
+  .services {
+    flex-direction: column;
+  }
+
+  h1 { font-size: 1.6rem; }
+  h2 { font-size: 1.3rem; }
+  p, a { font-size: 1rem; }
+
+  .videos {
+    grid-template-columns: 1fr;
+  }
+
+  .videos video {
+    width: 100%;
+    height: auto;
+  }
+
+  footer {
+    text-align: center;
+    font-size: 4vw;
+    padding: 10px;
+  }
+
+  /* Reset transform dla ważniejszych elementów */
+  .option, .notification, .about, .portfolio {
+    transform: none !important;
+  }
+}
