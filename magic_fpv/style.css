@@ -190,6 +190,9 @@ body {
 }
 
 #about img {
+    margin-right: 10rem;
+    margin-left: 10rem;
+    padding-bottom: 2rem;
     float: none;
     width: 120px;
     flex-shrink: 0;
